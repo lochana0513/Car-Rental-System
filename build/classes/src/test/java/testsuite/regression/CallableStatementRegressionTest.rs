@@ -1,0 +1,8 @@
+testsuite.regression.CallableStatementRegressionTest$7
+testsuite.regression.CallableStatementRegressionTest$3
+testsuite.regression.CallableStatementRegressionTest
+testsuite.regression.CallableStatementRegressionTest$4
+testsuite.regression.CallableStatementRegressionTest$5
+testsuite.regression.CallableStatementRegressionTest$6
+testsuite.regression.CallableStatementRegressionTest$1
+testsuite.regression.CallableStatementRegressionTest$2

@@ -1,0 +1,3 @@
+com.mysql.cj.protocol.a.authentication.AuthenticationLdapSaslClientPlugin$1
+com.mysql.cj.protocol.a.authentication.AuthenticationLdapSaslClientPlugin
+com.mysql.cj.protocol.a.authentication.AuthenticationLdapSaslClientPlugin$AuthenticationMechanisms

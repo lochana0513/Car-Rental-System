@@ -1,0 +1,6 @@
+testsuite.x.devapi.RowLockingTest$SelectRowDeadLock
+testsuite.x.devapi.RowLockingTest$MyUncaughtExceptionHandler
+testsuite.x.devapi.RowLockingTest
+testsuite.x.devapi.RowLockingTest$SelectRowLock
+testsuite.x.devapi.RowLockingTest$FindRowLock
+testsuite.x.devapi.RowLockingTest$FindRowDeadLock

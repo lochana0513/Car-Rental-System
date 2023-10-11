@@ -1,0 +1,11 @@
+com.mysql.cj.util.StringUtilsTest$2
+com.mysql.cj.util.StringUtilsTest$3
+com.mysql.cj.util.StringUtilsTest$1
+com.mysql.cj.util.StringUtilsTest$6
+com.mysql.cj.util.StringUtilsTest$7
+com.mysql.cj.util.StringUtilsTest$4
+com.mysql.cj.util.StringUtilsTest$5
+com.mysql.cj.util.StringUtilsTest$8
+com.mysql.cj.util.StringUtilsTest$9
+com.mysql.cj.util.StringUtilsTest$10
+com.mysql.cj.util.StringUtilsTest

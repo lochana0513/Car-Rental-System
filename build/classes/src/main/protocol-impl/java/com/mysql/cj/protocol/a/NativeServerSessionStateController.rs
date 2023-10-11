@@ -1,0 +1,2 @@
+com.mysql.cj.protocol.a.NativeServerSessionStateController
+com.mysql.cj.protocol.a.NativeServerSessionStateController$NativeServerSessionStateChanges

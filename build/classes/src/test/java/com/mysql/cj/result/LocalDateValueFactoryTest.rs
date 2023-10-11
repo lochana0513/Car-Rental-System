@@ -1,0 +1,17 @@
+com.mysql.cj.result.LocalDateValueFactoryTest
+com.mysql.cj.result.LocalDateValueFactoryTest$2
+com.mysql.cj.result.LocalDateValueFactoryTest$1
+com.mysql.cj.result.LocalDateValueFactoryTest$8
+com.mysql.cj.result.LocalDateValueFactoryTest$13
+com.mysql.cj.result.LocalDateValueFactoryTest$7
+com.mysql.cj.result.LocalDateValueFactoryTest$12
+com.mysql.cj.result.LocalDateValueFactoryTest$15
+com.mysql.cj.result.LocalDateValueFactoryTest$9
+com.mysql.cj.result.LocalDateValueFactoryTest$14
+com.mysql.cj.result.LocalDateValueFactoryTest$4
+com.mysql.cj.result.LocalDateValueFactoryTest$3
+com.mysql.cj.result.LocalDateValueFactoryTest$6
+com.mysql.cj.result.LocalDateValueFactoryTest$11
+com.mysql.cj.result.LocalDateValueFactoryTest$5
+com.mysql.cj.result.LocalDateValueFactoryTest$10
+com.mysql.cj.result.LocalDateValueFactoryTest$16

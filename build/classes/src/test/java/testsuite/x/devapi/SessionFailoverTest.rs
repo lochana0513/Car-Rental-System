@@ -1,0 +1,2 @@
+testsuite.x.devapi.SessionFailoverTest
+testsuite.x.devapi.SessionFailoverTest$ConnectionsCounterFakeServer

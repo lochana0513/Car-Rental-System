@@ -1,0 +1,2 @@
+com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy
+com.mysql.cj.jdbc.ha.LoadBalancedConnectionProxy$NullLoadBalancedConnectionProxy

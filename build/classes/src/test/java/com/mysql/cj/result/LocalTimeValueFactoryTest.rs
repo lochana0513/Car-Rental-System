@@ -1,0 +1,15 @@
+com.mysql.cj.result.LocalTimeValueFactoryTest$8
+com.mysql.cj.result.LocalTimeValueFactoryTest$12
+com.mysql.cj.result.LocalTimeValueFactoryTest$9
+com.mysql.cj.result.LocalTimeValueFactoryTest$11
+com.mysql.cj.result.LocalTimeValueFactoryTest$14
+com.mysql.cj.result.LocalTimeValueFactoryTest$13
+com.mysql.cj.result.LocalTimeValueFactoryTest$4
+com.mysql.cj.result.LocalTimeValueFactoryTest$5
+com.mysql.cj.result.LocalTimeValueFactoryTest$6
+com.mysql.cj.result.LocalTimeValueFactoryTest$10
+com.mysql.cj.result.LocalTimeValueFactoryTest$7
+com.mysql.cj.result.LocalTimeValueFactoryTest$1
+com.mysql.cj.result.LocalTimeValueFactoryTest$2
+com.mysql.cj.result.LocalTimeValueFactoryTest$3
+com.mysql.cj.result.LocalTimeValueFactoryTest

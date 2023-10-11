@@ -1,0 +1,4 @@
+testsuite.MockJndiContextFactory$MockJndiNameParser
+testsuite.MockJndiContextFactory$MockJndiName
+testsuite.MockJndiContextFactory
+testsuite.MockJndiContextFactory$MockJndiContext

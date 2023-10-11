@@ -1,0 +1,3 @@
+testsuite.InjectedSocketFactory$SocketWrapper
+testsuite.InjectedSocketFactory$InjectedInputStream
+testsuite.InjectedSocketFactory

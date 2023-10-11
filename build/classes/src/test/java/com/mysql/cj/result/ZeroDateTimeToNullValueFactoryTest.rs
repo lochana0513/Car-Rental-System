@@ -1,0 +1,9 @@
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$5
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$6
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$7
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$8
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$1
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$2
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$3
+com.mysql.cj.result.ZeroDateTimeToNullValueFactoryTest$4

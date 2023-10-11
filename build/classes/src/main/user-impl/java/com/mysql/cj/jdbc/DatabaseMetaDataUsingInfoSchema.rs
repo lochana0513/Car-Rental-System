@@ -1,0 +1,2 @@
+com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema$FunctionConstant
+com.mysql.cj.jdbc.DatabaseMetaDataUsingInfoSchema

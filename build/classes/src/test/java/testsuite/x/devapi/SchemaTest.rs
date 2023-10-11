@@ -1,0 +1,13 @@
+testsuite.x.devapi.SchemaTest
+testsuite.x.devapi.SchemaTest$10
+testsuite.x.devapi.SchemaTest$12
+testsuite.x.devapi.SchemaTest$11
+testsuite.x.devapi.SchemaTest$9
+testsuite.x.devapi.SchemaTest$8
+testsuite.x.devapi.SchemaTest$7
+testsuite.x.devapi.SchemaTest$6
+testsuite.x.devapi.SchemaTest$5
+testsuite.x.devapi.SchemaTest$4
+testsuite.x.devapi.SchemaTest$3
+testsuite.x.devapi.SchemaTest$2
+testsuite.x.devapi.SchemaTest$1

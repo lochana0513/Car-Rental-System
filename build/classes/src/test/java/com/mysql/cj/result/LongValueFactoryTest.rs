@@ -1,0 +1,12 @@
+com.mysql.cj.result.LongValueFactoryTest$1
+com.mysql.cj.result.LongValueFactoryTest$11
+com.mysql.cj.result.LongValueFactoryTest$10
+com.mysql.cj.result.LongValueFactoryTest$6
+com.mysql.cj.result.LongValueFactoryTest$7
+com.mysql.cj.result.LongValueFactoryTest$8
+com.mysql.cj.result.LongValueFactoryTest$9
+com.mysql.cj.result.LongValueFactoryTest$2
+com.mysql.cj.result.LongValueFactoryTest$3
+com.mysql.cj.result.LongValueFactoryTest$4
+com.mysql.cj.result.LongValueFactoryTest$5
+com.mysql.cj.result.LongValueFactoryTest

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ea64a5b6-d46a-49cf-b1ff-949008fccff8">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+    returnID,
+    rentid,
+    carReturnedDate,
+    delay,
+    fine,
+    totalFee
+FROM
+    ReturnTable;]]>
+	</queryString>
+	<field name="returnID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="rentid" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="carReturnedDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="delay" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="fine" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="totalFee" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="132" y="13" width="306" height="40" uuid="456a0e1d-e72a-4d23-8074-1d44a6c7f128"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAR RENTAL SYSTEM]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="64" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="197" height="26" uuid="0b9a338f-ca4a-49e3-bad0-b0d39ca16a68"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAR RETURN HISTORY]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="70" height="20" uuid="595c46fb-160d-4a99-b188-7a37e624836e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[returnID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="0" width="72" height="20" uuid="c501702b-c022-4395-858e-5b045ad420dd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[rentid]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="142" y="0" width="100" height="20" uuid="2ea4bced-1df8-4de7-8538-bd88c9c300ff"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[carReturnedDate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="242" y="0" width="84" height="20" uuid="072ef617-8cc1-4c5e-a10e-ad46dedfe215"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[delay]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="326" y="0" width="100" height="20" uuid="6c3df23c-806d-4b0d-8272-c748f8971d87"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[fine]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="426" y="0" width="129" height="20" uuid="3acd7e33-7ca3-4069-9789-76f74ac8cbf0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[totalFee]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="70" height="20" uuid="ff4b2232-b8da-49f1-800c-8bdd02b5dffd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{returnID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="70" y="0" width="72" height="20" uuid="80541a02-954d-4e1e-b118-5faeaacfb6d9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{rentid}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="142" y="0" width="100" height="20" uuid="c80357d9-30c5-478f-adb6-95fd774fa9c0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{carReturnedDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="242" y="0" width="84" height="20" uuid="59bf5af6-ccb7-4a73-960b-c45d11daaed1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{delay}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="326" y="0" width="100" height="20" uuid="3478dcb4-a299-4eac-9268-0fba9fabb9a6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{fine}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="426" y="0" width="129" height="20" uuid="ff8ea229-c2a2-4d5a-9db0-d10c0df1783a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{totalFee}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

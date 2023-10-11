@@ -1,0 +1,4 @@
+com.mysql.cj.protocol.ServerSessionStateController
+com.mysql.cj.protocol.ServerSessionStateController$ServerSessionStateChanges
+com.mysql.cj.protocol.ServerSessionStateController$SessionStateChange
+com.mysql.cj.protocol.ServerSessionStateController$SessionStateChangesListener

@@ -1,0 +1,2 @@
+com.mysql.cj.jdbc.AbandonedConnectionCleanupThread
+com.mysql.cj.jdbc.AbandonedConnectionCleanupThread$ConnectionFinalizerPhantomReference

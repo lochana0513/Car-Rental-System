@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="ed6173cb-af1a-4dbe-8634-a02f852987c2">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+    rentID,
+    carRegistration,
+    customerID,
+    rentDate,
+    returnDate,
+    rentFee
+FROM
+    RentHistory;]]>
+	</queryString>
+	<field name="rentID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="carRegistration" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="customerID" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="rentDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="returnDate" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="rentFee" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="143" y="10" width="306" height="40" uuid="dd4c11a0-8747-4a8e-bdfe-85647ff626c1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAR RENTAL SYSTEM]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="93" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="170" height="40" uuid="dfafa88b-6c51-497d-bcd8-a83992572d11"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Segoe UI" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CAR RENT HISTORY]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="83" height="20" uuid="8d0cc48c-524a-49ba-92ac-a80d6a02c529"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[rentID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="83" y="0" width="87" height="20" uuid="6ef84fe9-b07f-4642-ba9f-1128b96219c3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[carRegistration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="170" y="0" width="82" height="20" uuid="39ea1b01-d760-426d-a947-e892562adcf1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[customerID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="0" width="100" height="20" uuid="4de8815b-1f46-49a7-9a04-424211c931b9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[rentDate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="352" y="0" width="100" height="20" uuid="02a6fcfb-f946-429e-a02d-4271de97db96"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[returnDate]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="452" y="0" width="100" height="20" uuid="5da41e9b-99b1-4f95-94fe-0d4501bd54ae"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[rentFee]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="83" height="20" uuid="ef5a23b7-f0e6-4d3f-9cc7-b97c03962455"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{rentID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="83" y="0" width="87" height="20" uuid="9b653f90-a3e8-4e76-b2bb-b541220c8c42"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{carRegistration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="170" y="0" width="82" height="20" uuid="cda7b7b3-0895-405d-8997-40c981c85332"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{customerID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="252" y="0" width="100" height="20" uuid="c4b31fbc-b9bc-404e-8bf7-5e4ab3e97da7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{rentDate}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="452" y="0" width="100" height="20" uuid="1258c938-4222-4245-9eb1-6f51d5b8d061"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{rentFee}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="349" y="0" width="100" height="20" uuid="b75056dc-3988-404a-ad25-a12344c9a913"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{returnDate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Immediate"/>
+	</summary>
+</jasperReport>

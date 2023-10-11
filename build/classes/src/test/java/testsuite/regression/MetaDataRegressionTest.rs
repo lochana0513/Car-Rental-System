@@ -1,0 +1,3 @@
+testsuite.regression.MetaDataRegressionTest$TestBug97413Columns
+testsuite.regression.MetaDataRegressionTest$QueryInterceptorBug61332
+testsuite.regression.MetaDataRegressionTest
